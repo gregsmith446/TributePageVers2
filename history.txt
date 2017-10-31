@@ -1,0 +1,203 @@
+    1  mkdir htmllesson
+    2  ../
+    3  ../../
+    4  ../
+    5  cd ../../
+    6  cd firstworkspacec
+    7  cd firstworkspace
+    8  cd workspace
+    9  mkdir htmllesson
+   10  cd htmllesson
+   11  ..
+   12  cd workspace/
+   13  cd htmllesson/
+   14  touch index.html
+   15  c9 index.html 
+   16  \! 
+   17  git
+   18  git init
+   19  ..
+   20  git status
+   21  cd htmllesson/
+   22  git status
+   23  git add index.html 
+   24  git status
+   25  git commit -m "First Commit"
+   26  git status
+   27  t
+   28  touch style.css
+   29  cd htmllesson/
+   30  touch style.css
+   31  c9 style.css 
+   32  git status
+   33  git add .
+   34  git status
+   35  git commit -m "add paragraph to html and add css style sheet "
+   36  git status
+   37  git commit -m
+   38  git status
+   39  git add .
+   40  git status
+   41  git checkout index.html
+   42  git status
+   43  git checkout index.html
+   44  g
+   45  git push -u origin master
+   46  mkdir codechallenge1026
+   47  cd codechallenge1026/
+   48  touch file.js
+   49  .
+   50  c9 file.js 
+   51  Console.log
+   52  git remote add origin git@github.com:gregsmith446/career-devs-day-3.git
+   53  git push -u origin master
+   54  git commit
+   55  g
+   56  git init
+   57  git add .
+   58  git commit -m
+   59  git commit -m js code practice
+   60  git remote add origin git@github.com:gregsmith446/career-devs-day-3.git
+   61  git push -u origin master
+   62  git commit -m main.js
+   63  git remote add origin git@github.com:gregsmith446/career-devs-day-3.git
+   64  git push -u origin master
+   65  git log
+   66  git log --pretty=oneline
+   67  git log --pretty=oneline --max-count=2
+   68  git log --pretty=oneline --since='5 minutes ago'
+   69  gem install rake
+   70  touch rakefile
+   71  cd rakefile
+   72  git add Rakefile
+   73  cd hello
+   74  git add Rakefile
+   75  git hist --all
+   76  gem install rake
+   77  #!/usr/bin/ruby -wKU
+   78  task :default => :run
+   79  task :run do
+   80  end
+   81  #!/usr/bin/ruby -wKU
+   82  task :default => :run
+   83  task :run do
+   84  touch rakefile.rdoc
+   85  ls -C .git
+   86  ls -C .git
+   87  git config --global user.email "gregsmith446@gmail.com"
+   88  cd repos
+   89  mkdir lib
+   90  cd lab_20
+   91  mkdir lib
+   92  git mv hello.rb lib
+   93  git status
+   94  gem install rake 
+   95  touch rakefile
+   96  git add Rakefile
+   97  cd lib
+   98  git add Rakefile
+   99  git commit -m "Added a Rakefile."
+  100  rake
+  101  ls -C .git
+  102  ls -C .git/objects
+  103  ls -C .git/objects/<dir>
+  104  cat .git/config
+  105  ls .git/refs
+  106  ls .git/refs/heads
+  107  ls .git/refs/tags
+  108  cat .git/refs/tags/v1
+  109  cat .git/HEAD
+  110  git hist --max-count=1
+  111  git cat-file -t e55c484
+  112  git cat-file -p e55c484
+  113  git cat-file -p    <h1>UConn National Champions 2014</h1>
+  114  </table>  git cat-file -p e790399173199c7361c455a8fd365b2386bbd6e7
+  115  git hist --max-count=1
+  116  git cat-file -t e55c484
+  117  git cat-file -p e55c484
+  118  git cat-file -p e790399173199c7361c455a8fd365b2386bbd6e7
+  119  git cat-file -p e46f374f5b36c6f02fb3e9e922b79044f754d795
+  120  git cat-file -p c45f26b6fdc7db6ba779fc4c385d9d24fc12cf72
+  121  git checkout -b greet
+  122  git status
+  123  git add lib/greeter.rb
+  124  touch greeter.rb
+  125  git add lib/greeter.rb
+  126  git config core.autocrlf false
+  127  git add lib/greeter.rb
+  128  git commit -m "Added greeter class"
+  129  git add lib/hello.rb
+  130  git commit -m "Hello uses Greeter"
+  131  git add Rakefile
+  132  git commit -m "Updated Rakefile"
+  133  git hist --all
+  134  git checkout master
+  135  cat lib/hello.rb
+  136  git checkout greet
+  137  cat lib/hello.rb
+  138  git checkout master
+  139  touch README
+  140  git add README
+  141  git commit -m "Added README"
+  142  git hist --all
+  143  git checkout greet
+  144  git merge master
+  145  git hist --all
+  146  touch story.html
+  147  touch contact.html
+  148  git remote add origin https://github.com/gregsmith446/TributePageVers2.git
+  149  git commit
+  150  git commit -m "1 hour site"
+  151  git config --global user.name "Your Name Here"
+  152  git config --global user.name "gregsmith446"
+  153  git init
+  154  git remote add origin https://github.com/gregsmith446/TributePageVers2.git
+  155  git add .
+  156  git add
+  157  git add.
+  158  git add .
+  159  git config core.autocrlf false
+  160  git add .
+  161  git commit -m "1 hour commit"
+  162  git push -u origin master
+  163  git push -u origin master
+  164  git remote add origin https://github.com/gregsmith446/TributePageVers2.git
+  165  PUSH
+  166  git push -u origin master
+  167  git config --global user.name "Your Name Here"
+  168  git config --global user.name "gregsmith446"
+  169  git config --global user.email "gregsmith446@gmail.com"
+  170  git init
+  171  git remote add origin git@github.com:gregsmith446/TributePageVers2
+  172  git add .
+  173  git commit -m "commit 1"
+  174  git push -u origin master
+  175  git push
+  176  git remote add github
+  177  git remote add github git@github.com:gregsmith446/TributePageVers2
+  178  git add.
+  179  git add .
+  180  git commit -m "version 1"
+  181  git push -u origin master
+  182  git push -u github master
+  183  git push
+  184  git commit -m "minor modification"
+  185  git status
+  186  git checkout -b "myNotesBranch"
+  187  mkdir notes
+  188  cd notes/
+  189  touch notes.txt
+  190  c9 notes.txt 
+  191  git commit -m "created Notes.txt"
+  192  git checkout master
+  193  git merge myNotesBranch
+  194  git push
+  195  git status
+  196  git checkout notes.txt
+  197  ..
+  198  git status
+  199  git checkout contact.html
+  200  git log
+  201  git log > gitLog.txt
+  202  c9 gitLog.txt 
+  203  history > history.txt
